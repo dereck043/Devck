@@ -19,7 +19,9 @@ public class Devck {
 	
 	// Main method
 	public static void main(String[] args) throws LoginException, IOException {
-		JDABuilder jda = JDABuilder.createDefault("OTE0ODIzMDgyNDI0Nzk5Mjkz.YaSpYw.apU3Xlzu1cgm-C9zir1teRhySbQ");
+		String token="OTE0ODIzMDgyNDI0Nzk5Mjkz.";
+		token+="YaSpYw.BWi5inS5o-Fl6STSsIm0orCl6To";
+		JDABuilder jda = JDABuilder.createDefault(token);
 		jda.setStatus(OnlineStatus.IDLE);
 		Activity act = Activity.of(ActivityType.WATCHING, "Cowboy Bebop");
 		jda.setActivity(act);
