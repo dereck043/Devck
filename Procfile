@@ -1,0 +1,1 @@
+worker: node /src/en/devck/dc/Devck.java
